@@ -1,0 +1,78 @@
+
+body{
+	background: #D8D8D8;
+	font: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	font-size: 250%;
+	text-align: left;
+
+}
+#terl{	
+	position: absolute;
+	top: 160px;
+	left: 90px;
+    width: 512px;
+    height:400px; 
+    padding: 70px 30px;  
+    background: #E2E0DE;
+    list-style-type:disc;
+    font-size: 1em;
+    line-height: 1.7em;
+	text-shadow: 0 1px 1px #003A6C;
+}
+#about{
+	text-align:right;
+	color:#FFFFFF;  
+	background-color: #0B3861;
+	box-shadow: 0 0 1em #0B3861;
+}
+#aboutl{	
+	color:#FFFFFF; 	
+	float:left;
+    text-align:left;
+}
+#news{
+	border-width:12px; 
+	border-color:#FF9999; 
+	border-style:dotted; 
+	text-align:center; 
+	height:30%; 
+	padding:10px; 
+	margin:15px;
+	background: #D8D8D8;
+}
+#option{
+	box-shadow: 0 0 1em #0B3861; 
+	padding:25 0 25 40px ; 
+ 	border-top-style: hidden;
+ 	border-bottom-style: hidden;
+ 	border-width:2px;
+ 	margin-top: 3%;
+	background: #D8D8D8;
+	vertical-align: middle;
+}
+a:link{ 
+	text-decoration:none; 
+	font-weight:bold; 
+	color:#FFFFFF; 
+	}
+a:visited{ 
+	text-decoration:none; 
+	font-weight:bold; 
+	color:#FFFFFF; 
+	}
+input{
+	float:right;
+    text-align:right;
+	margin: 5% 3%;
+	
+}
+input[type=checkbox]
+{
+	margin: 4% 12%;
+  -ms-transform: scale(4); /* IE */
+  -moz-transform: scale(4); /* FF */
+  -webkit-transform: scale(4); /* Safari and Chrome */
+  -o-transform: scale(4); /* Opera */
+  padding: 10px;
+}
